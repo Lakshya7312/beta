@@ -44,53 +44,53 @@ var part_count = 4;
 //defining function preload
 function preload() {
   //load background image
-  backg = loadImage("./images/bg2.png");
-  backg2 = loadImage("./images/bg.jpg");
+  backg = loadImage("./bg2.png");
+  backg2 = loadImage("./bg.jpg");
 
   //load zombie animation
   zomAnima = loadAnimation(
-    "./anime/1f.png",
-    "./anime/2f.png",
-    "./anime/3f.png",
-    "./anime/4f.png",
-    "./anime/5f.png"
+    "./1f.png",
+    "./2f.png",
+    "./3f.png",
+    "./4f.png",
+    "./5f.png"
   );
 
   //load gun and laser image
-  gunImg = loadImage("./images/gun.png");
-  laserImg = loadImage("./images/laser1.png");
+  gunImg = loadImage("./gun.png");
+  laserImg = loadImage("./laser1.png");
 
   //load control help images
-  up_arr = loadImage("./images/up.png");
-  down_arr = loadImage("./images/down.png");
-  left_arr = loadImage("./images/left.png");
-  right_arr = loadImage("./images/right.png");
+  up_arr = loadImage("./up.png");
+  down_arr = loadImage("./down.png");
+  left_arr = loadImage("./left.png");
+  right_arr = loadImage("./right.png");
 
   //load image for various time machine parts
-  t1Img = loadImage("./images/part1.png");
-  t2Img = loadImage("./images/part2.png");
-  t3Img = loadImage("./images/part3.png");
-  t4Img = loadImage("./images/part4.png");
-  timeMachineImg = loadImage("./images/time_machine.png");
+  t1Img = loadImage("./part1.png");
+  t2Img = loadImage("./part2.png");
+  t3Img = loadImage("./part3.png");
+  t4Img = loadImage("./part4.png");
+  timeMachineImg = loadImage("./time_machine.png");
 
   //load image displayed as life icon
-  lifeImg = loadImage("./images/heart.png");
+  lifeImg = loadImage("./heart.png");
 
   //load image displayed as energy icon
-  lightImg = loadImage("./images/energy.png");
+  lightImg = loadImage("./energy.png");
 
   //load font used in the entire game
   font = loadFont("./russo.ttf");
 
   //load music for laser shoot, life loss, zombie dead, game over, jump, part pickup, win, teleport
-  lasermusic = loadSound("./sounds/laser.mp3");
-  lifeLose = loadSound("./sounds/SPOILER_losealife.mp3");
-  zombieDie = loadSound("./sounds/SPOILER_preview.mp3");
+  lasermusic = loadSound("./laser.mp3");
+  lifeLose = loadSound("./SPOILER_losealife.mp3");
+  zombieDie = loadSound("./SPOILER_preview.mp3");
   gameOverSound = loadSound(
-    "./sounds/SPOILER_Game_Over_2_Super_Mario_-_Sound_Effect_HD.mp3"
+    "./SPOILER_Game_Over_2_Super_Mario_-_Sound_Effect_HD.mp3"
   );
-  jumpSound = loadSound("./sounds/SPOILER_jump_2.mp3");
-  partSound = loadSound("./sounds/SPOILER_pickupp.mp3");
+  jumpSound = loadSound("./SPOILER_jump_2.mp3");
+  partSound = loadSound("./SPOILER_pickupp.mp3");
 }
 
 //defining function setup
